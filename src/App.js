@@ -32,8 +32,8 @@ function App() {
               <Nav api={fullpageApi} />
               <Landing />
               <About />
-              {/* <Portfolio />
-              <Contact /> */}
+              <Portfolio />
+              <Contact />
             </>
           );
         }}
