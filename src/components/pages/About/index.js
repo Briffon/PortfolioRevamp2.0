@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import Card from "../../Card";
 import Technology from "../../Technology";
+import "./mobile.css";
 
 function About() {
   return (
@@ -10,15 +11,19 @@ function About() {
         <div className="about__container__item about-me">
           <h2>About Me</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Hello, my name is Britton Smith, I am a Full Stack Web
+            Developer/Designer from Fullsail University partnered with
+            DigitalByte.io. I make beautiful modern websites that are optimized
+            for all devices. I work with many technologies to bring my clients
+            the most efficient product for their needs. I am also certified in
+            Google Analytics so I can track and make reports of web traffic.
+            Using this tool I can develop and execute strategies for digital
+            marketing efforts. These efforts will create revenue-driving
+            programs that build relationships with clients, as well as online
+            audiences through the various digital and social media platforms. If
+            you're interested in building a new site, redesigning your current
+            website, or growing your customer market don't be afraid to contact
+            me!
           </p>
         </div>
       </div>
@@ -26,37 +31,28 @@ function About() {
         <div className="about__container__item services">
           <Card
             width="25%"
-            height="60%"
+            height="80%"
             name="Design"
             image="./images/icons/layout.png"
-            content="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not"
+            content="I make designs for both desktop and mobile devices using Adobe Xd. I will conceptualize creative ideas, as well as creating visual elements in line with my client’s brand. Depending on the project, my design process usually takes 2-3 weeks with revisions to meet my client’s ideal style. I use my skills to be able to builds websites that are easy to understand, navigate, use, and adhere to design standards and specifications."
             button="Get A Quote"
           />
 
           <Card
             width="25%"
-            height="60%"
+            height="80%"
             name="Development"
             image="./images/icons/rocket-ship.png"
-            content="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not"
+            content="I develop using the JavaScript framework ReactJS, this brings me the most efficient way to bring my client’s back-end security, render speed, high SEO score, and overall productivity. I can develop for any needs such as eCommerce, portfolio, blogging, admin panel, and much more. Depending on the scope and size it takes me 2-3 weeks to push a webb app live."
             button="Get A Quote"
           />
 
           <Card
             width="25%"
-            height="60%"
+            height="80%"
             name="Google Analytics"
             image="./images/icons/data.png"
-            content="Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not"
+            content="Being certified in google analytics, I have a strong grasp on current marketing tools and strategies. Using my tools I am able to research audience preferences and discover new trends, measure web traffic and monitor SEO, suggest new ways to attract prospective customers,  and many more opportunities for you to take advantage of."
             button="Get A Quote"
           />
         </div>
