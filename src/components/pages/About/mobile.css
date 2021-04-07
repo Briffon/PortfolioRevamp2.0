@@ -1,0 +1,41 @@
+.about-me {
+}
+
+@media (max-width: 970px) {
+  .about__container__item {
+    justify-content: unset;
+  }
+
+  .about-me {
+    /* border: 2px solid cyan; */
+    height: auto;
+    width: 75%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-me {
+    height: 85vh;
+    width: 95%;
+    justify-content: center;
+  }
+
+  .fp-next,
+  .fp-prev {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .about-me p {
+    max-height: 70%;
+    overflow-y: scroll;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .about-me {
+    width: 80%;
+  }
+} */

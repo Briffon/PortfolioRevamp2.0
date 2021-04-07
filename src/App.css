@@ -12,7 +12,7 @@ ol[class] {
 }
 
 html {
-  font-family: "Oxanium", cursive;
+  font-family: "Cairo", sans-serif;
 }
 
 /* Remove default margin */
@@ -95,31 +95,28 @@ select {
 }
 
 .portfolio-container {
-  background: url("./backgrounds/Background.png") no-repeat center center fixed;
+  /* background: url("./backgrounds/Background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
   position: relative;
   z-index: 1;
   overflow: hidden;
+  background-color: #222222;
+  opacity: 1;
 }
 
-.texture {
+.wave-svg {
   position: fixed;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  object-position: 15% 15%;
+  object-position: 37% 37%;
   padding: 0;
   margin: 0;
-  z-index: -2;
-  opacity: 0.85;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  transform-origin: bottom;
-  animation-name: zoom;
-  animation-timing-function: ease;
+  z-index: -1;
+  opacity: 1;
 }
 
 .overlay {
@@ -127,7 +124,7 @@ select {
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  opacity: 0.35;
+  opacity: 0;
 }
 
 @keyframes zoom {
@@ -146,23 +143,23 @@ select {
 /* Font Sizes */
 
 h1 {
-  font-size: 72px;
+  font-size: calc(42px + (60 - 42) * ((100vw - 360px) / (1920 - 360)));
   font-weight: 100;
 }
 
 li {
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 h2 {
   font-size: 42px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 p {
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 24px;
+  font-weight: 200;
 }
 
 body::-webkit-scrollbar {
@@ -170,6 +167,6 @@ body::-webkit-scrollbar {
 }
 
 h3 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 300;
 }
