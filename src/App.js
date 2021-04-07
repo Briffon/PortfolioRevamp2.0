@@ -33,7 +33,6 @@ function App() {
               <About />
               <Portfolio />
               <Contact />
-              <div className="section">Test3</div>
             </>
           );
         }}
